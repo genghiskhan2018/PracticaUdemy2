@@ -1,0 +1,77 @@
+html
+{
+    box-sizing: border-box;
+}
+*, *::before,*::after
+{
+    box-sizing: inherit;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana, geneva, serif;
+    background-color: #c5c6c7;
+}
+.hero img{
+    width: 100%;
+}
+div.contenedor header{
+    text-align: center;
+}
+.productos{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.productos h2{
+    text-align: center;
+    color: #0b0c10;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.lista-productos {
+    text-align: center;
+    list-style: none;
+}
+.lista-productos li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lista-productos img{
+    padding:10px 10px;
+    background-color: violet;
+}
+.lista-productos img:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.lista-productos li p{
+    text-align: center;
+    color: #0b0c10;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.boton:hover{
+    color:blue;
+    background-color: red;
+}
+.lista-productos li p span{
+    font-size: 30px;
+    color: yellow;
+}
+.boton{
+    text-decoration: none;
+    text-align: center;
+    color: #0b0c10;
+    background-color: aquamarine;
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
